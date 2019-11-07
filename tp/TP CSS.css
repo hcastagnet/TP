@@ -1,0 +1,90 @@
+.style2 {
+    position: relative;
+    top: 40%;
+    position: absolute;
+    left: 10%;
+
+}
+.style1 {
+    margin: 0 auto;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 150px;
+
+}
+.style4 {
+    background-image: linear-gradient(to top, rgb(184, 188, 192), rgb(153, 153, 155) 50%, rgb(118, 121, 124) 75%);
+}
+.style5 {
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 15, 221), 0 2 4px rgb(0, 15, 221);
+}
+.style6 {
+    position: relative;
+    top: 320px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(121, 44, 121);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    top: 500px;
+    position: absolute;
+    right: 0px;
+  }
+  
+  .button:hover {background-color: #e6a00a}
+  
+  .button:active {
+    background-color: #f3a633;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .button2 {
+    position: relative;
+    background-image: linear-gradient(to top, rgb(118, 121, 124), rgb(153, 153, 155) 50%, rgb(184, 188, 192) 75%);
+    border: none;
+    font-size: 58px;
+    color: #FFFFFF;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    left: 1300px;
+
+  }
+  
+  .button2:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
