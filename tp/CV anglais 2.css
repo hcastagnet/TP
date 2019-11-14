@@ -1,0 +1,75 @@
+.style1 {
+    background-color:rgb(223, 223, 223);
+    padding: 2px;
+    height: 80%;
+    width: 100%;
+}
+.style5 {
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    float: top;
+    text-align:center;
+}
+.style7 {
+    background-color:rgb(0, 0, 0);
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    float: bottom;
+    text-align:center;
+}
+.style9 {
+    float: right;
+}
+.style10 {
+    float: bottom;
+    
+}
+.style99 {
+    position: relative;
+    right: 650px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e6a00a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    right: 500px;
+    top: 0px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
